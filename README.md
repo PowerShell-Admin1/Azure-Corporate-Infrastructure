@@ -1,16 +1,19 @@
 # **Azure-Corporate-Infrastructure**
 This repository demonstrating Azure Cloud Infrastructure for a small business, which is based on Microsoft AZ-104:  Microsoft Azure Administrator skills. Featuring 4 projects with screenshots evidence.
 
+
+
+
 ##**Projects Overview**
 
-**#Project1- Manage identities and governance in Azure.**
+**#Project1- Manage identities and governance in Azure**
 
 -Users
 -Groups
 -RBAC
 -Policy
 
-**#Projrct2- Azure Virtual Networks and Machines.**
+**#Projrct2- Azure Virtual Networks and Machines**
 
 -Vnet
 -VMs
@@ -29,6 +32,11 @@ This repository demonstrating Azure Cloud Infrastructure for a small business, w
 -Alert
 -Log Analytics
 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 **##Skills Demonstrated**
 
 | Area       | Skill                   |
@@ -41,6 +49,9 @@ This repository demonstrating Azure Cloud Infrastructure for a small business, w
 | Monitoring | Azure Monitor           |
 | Backup     | Recovery Services Vault |
 | Security   | Least Privilege Access  |
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **##Deployment Steps**
@@ -57,12 +68,20 @@ This repository demonstrating Azure Cloud Infrastructure for a small business, w
 10. Validate Connectivity
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 **##Validation Testing**
 
 ✅ VM deployment successful
+✅ RDP access via Bastion
+✅ SSH connectivity verified
+✅ NSG rules tested
+✅ Alert generated in Azure Monitor
+✅ Backup job completed successfully
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **##Future Improvements**
@@ -72,11 +91,15 @@ This repository demonstrating Azure Cloud Infrastructure for a small business, w
 - Azure Site Recovery
 - Azure Automation
 - Azure Key Vault
-- Azure Policy
 - Terraform deployment
 - CI/CD with GitHub Actions
 
 
+
+**##Key Dilemmas **
+
+
+Unable to show Dynamic Groups due to Licenses issue. 
 
 
 
