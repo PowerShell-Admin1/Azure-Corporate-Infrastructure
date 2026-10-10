@@ -45,15 +45,36 @@ This repository demonstrating Azure Cloud Infrastructure for a small business, w
 
 **##Deployment Steps**
 
-<img width="1698" height="2268" alt="image" src="https://github.com/user-attachments/assets/83ce1d2b-8ba8-4a7a-b323-61d507c64136" />
+1. Create Resource Group
+2. Deploy Virtual Network
+3. Configure Subnets
+4. Create NSG & ASG
+5. Deploy Windows VM
+6. Deploy Linux VM
+7. Configure Azure Bastion
+8. Enable Monitoring
+9. Configure Backup
+10. Validate Connectivity
+
+
 
 **##Validation Testing**
 
-<img width="2063" height="2268" alt="image" src="https://github.com/user-attachments/assets/d4a04e62-820a-46a8-b6b0-1136d530d20c" />
+✅ VM deployment successful
+
+
+
 
 **##Future Improvements**
 
-<img width="3813" height="2268" alt="image" src="https://github.com/user-attachments/assets/daffa741-06c2-432f-9717-17429af7af7a" />
+## Future Enhancements
+
+- Azure Site Recovery
+- Azure Automation
+- Azure Key Vault
+- Azure Policy
+- Terraform deployment
+- CI/CD with GitHub Actions
 
 
 
