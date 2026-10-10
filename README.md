@@ -3,13 +3,14 @@ This repository demonstrating Azure Cloud Infrastructure for a small business, w
 
 ##**Projects Overview**
 
-#Project1- Manage identities and governance in Azure.
+**#Project1- Manage identities and governance in Azure.**
+
 -Users
 -Groups
 -RBAC
 -Policy
 
-#Projrct2- Azure Virtual Networks and Machines.
+**#Projrct2- Azure Virtual Networks and Machines.**
 -
 
 
