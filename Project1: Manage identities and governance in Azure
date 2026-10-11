@@ -1,0 +1,12 @@
+# Objectives
+
+This project focuses on managing user identities, groups, access permissions, and governance within the organization. It also covers user access to Azure resources, including virtual machines, 
+ensuring secure and controlled access across the environment.
+
+# Technology used 
+
+-Microsoft Entra ID
+
+-Azure 
+
+
