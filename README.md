@@ -20,28 +20,23 @@ The project demonstrates practical cloud administration skills commonly required
 
 ## Architecture
 
+- Internet
 
-Internet
-    │
-    ▼
-Azure Virtual Network
-│
-├── Management Subnet
-│     └── Azure Bastion
-│
-├── Application Subnet
-│     └── Windows Server VM
-│
-├── Data Subnet
-│     └── Storage Account
-│
-├── Network Security Groups
-│
-├── Azure Monitor
-│
-├── Log Analytics Workspace
-│
-└── Microsoft Entra ID
+- Azure Virtual Network
+
+- Management Subnet ---Azure Bastion
+
+- Application Subnet --- Windows Server VM
+
+- Data Subnet --- Storage Account
+
+- Network Security Groups 
+
+- Azure Monitor
+
+- Log Analytics Workspace
+
+- Microsoft Entra ID
 
 
 
@@ -50,6 +45,8 @@ Azure Virtual Network
 
 
 ## Key Technologies
+
+
 
 
 
