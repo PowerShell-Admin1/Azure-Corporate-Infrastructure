@@ -6,12 +6,20 @@ This repository demonstrating Azure Cloud Infrastructure for a small business, w
 
 ##**Projects Overview**
 
+
+A small-scale company is planning to establish its business operations within the next few months using Microsoft Azure cloud services. The goal is to build a secure, scalable, and cost-effective IT environment covering user management, networking, data storage, and cost management.
+
+The company also plans to launch an application in the future. To achieve these objectives, the implementation has been divided into four projects, each focusing on a key area of Azure cloud infrastructure.
+
+
+
 **#Project1- Manage identities and governance in Azure**
 
 -Users
 -Groups
 -RBAC
 -Policy
+
 
 **#Projrct2- Azure Virtual Networks and Machines**
 
@@ -21,11 +29,13 @@ This repository demonstrating Azure Cloud Infrastructure for a small business, w
 -NSGs
 -ASGs
 
+
 **#Project3- Manage Storage in Azure**
 
 -Blob Storage
 -Files
 -SAS Toknes
+
 
 **#Project4- Azure Monitors**
 
@@ -96,10 +106,10 @@ This repository demonstrating Azure Cloud Infrastructure for a small business, w
 
 
 
-**##Key Dilemmas **
+**##Comments **
 
 
-Unable to show Dynamic Groups due to Licenses issue. 
+All the projects done in the Azure portal (Subscription: Pay-as-you-go). The Dynamic group is missing from Project1 because of license restrictions. 
 
 
 
