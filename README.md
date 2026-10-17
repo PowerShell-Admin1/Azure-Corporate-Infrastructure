@@ -196,14 +196,45 @@ Designed and deployed multiple Azure Virtual Networks to provide network isolati
 
 **3. Network Security Groups**  
 
+Implemented Network Security Groups (NSGs) to control traffic flow between Azure resources and enforce network security requirements. Custom inbound and outbound rules were configured to support application access while restricting unnecessary connectivity.
 
 
+<img width="1591" height="597" alt="NSGs" src="https://github.com/user-attachments/assets/f0b88db5-067a-49fc-b062-1a4933a1d507" /> 
+
+<img width="1597" height="832" alt="NSG" src="https://github.com/user-attachments/assets/7274e7ee-664a-4e20-89be-f5722e46ccd0" />
+
+<img width="1580" height="811" alt="NSG Deny Rule" src="https://github.com/user-attachments/assets/dd7a792c-0f3c-420c-a5f8-93dd5f5bae61" /> 
+
+
+**Measurable Outcomes**  
   
+- Deployed 5 Network Security Groups across the Azure environment.
+
+- Applied custom inbound security rules to permit only required application traffic on TCP ports 80 and 443.
+
+- Configured RDP access controls using a dedicated security rule on port 3389.
+
+- Implemented outbound Internet restrictions through a custom deny rule.
+
+- Applied security controls at subnet level to support workload isolation.
+
+- Enforced least-privilege network access by limiting permitted traffic paths.
+
+- Maintained Azure default deny rules to protect resources from unauthorised access.
 
 
+**Skills Demonstrated** 
+
+- Azure Network Security Groups (NSGs)
+
+- Network Access Control
+
+- Inbound & Outbound Security Rules
+
+- Application Security Groups (ASGs)
 
 
-
+4. Virtual Machine Deployment 
 
 
 
