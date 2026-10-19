@@ -142,6 +142,7 @@ Created a dedicated Azure Resource Group to organise and manage all project reso
 
     
 **Measurable Outcomes**
+
 - Successfully deployed 24 Azure resources and configurations within a single managed Resource Group.
 
 - Implemented standardised resource tag and lock across the environment to improve governance and resource tracking.
@@ -397,7 +398,7 @@ Configured a Data Collection Rule (DCR) to collect Windows Event Logs from Azure
 
 Used Azure Monitor Activity Logs to track administrative actions, configuration changes and operational events across the Azure environment. 
 
-**#Alrt Notification**  
+**#Alert Notification**  
 
 <img width="1232" height="542" alt="ActionGroup" src="https://github.com/user-attachments/assets/7322966c-ddce-4de7-b478-88a1c90f5c50" /> 
 
@@ -426,7 +427,7 @@ Configured Azure Monitor Action Groups to support automated notifications and op
 - Alert Management
 
 
-**7. Identity and Access Management ** 
+**7. Identity and Access Management (RBAC)**
 
 Implemented Azure Role-Based Access Control (RBAC) and Microsoft Entra ID to manage identities, control access to resources and apply least-privilege security principles across the Azure environment. 
 
