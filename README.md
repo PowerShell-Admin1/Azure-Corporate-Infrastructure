@@ -106,6 +106,7 @@ The project demonstrates practical cloud administration skills commonly required
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
      
 
+
  ## Project Objectives
 
 
@@ -122,7 +123,9 @@ The project demonstrates practical cloud administration skills commonly required
  - Demonstrate production-ready cloud administration skills
 
 
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------   
+
  
   
 ## Implementation Evidence 
@@ -467,16 +470,72 @@ Additional RBAC assignments were configured at Storage Account scope to provide 
 - Azure Resource Security 
 
 
+**8. Cost Management and Governance**  
+
+Implemented Azure Cost Management to monitor resource spending and forecast infrastructure costs. 
+
+<img width="1671" height="751" alt="CostAlert" src="https://github.com/user-attachments/assets/a582fddd-a9c4-4d65-a212-ad84d5077af6" /> 
+
+**Measurable Outcomes** 
+
+- Analysed Azure resource consumption.
+
+- Identified highest-cost resources.
+
+- Applied governance practices through resource tagging and cost visibility.
+
+**Skills Demonstrated ** 
+
+- Azure Cost Management
+
+- Budget Analysis
+
+- Resource Governance
 
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
+**#Technical Skills Validated** 
+
+<img width="732" height="347" alt="skills " src="https://github.com/user-attachments/assets/bdcb8027-ac5a-4dce-9a6a-c23a5eafecd4" /> 
 
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
+
+**Why This Project Matters**  
+
+This project provided hands-on experience with deploying, securing, monitoring and managing Azure infrastructure in a practical cloud environment. It reinforced best practices for cloud networking, identity management, operational monitoring and governance while developing the skills required to support enterprise Azure environments.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+**Future Enhancements** 
+
+- Implement Azure Backup and Site Recovery
+- Deploy Azure Key Vault for secrets management
+- Implement Azure Policy compliance controls
+- Extend monitoring with custom KQL queries and dashboards
+- Automate deployments using Bicep and Azure DevOps
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+
+**Author** 
+
+Papri Ganguly 
+
+Service Desk Analyst | Azure Administrator (AZ-104) 
+
+GitHub Portfolio Project demonstrating practical experience in Azure Infrastructure Administration, Security, Monitoring and Governance. 
 
 
 
