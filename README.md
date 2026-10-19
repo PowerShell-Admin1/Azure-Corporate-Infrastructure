@@ -342,6 +342,135 @@ The storage account rgfile was deployed using the Azure FileStorage account type
 
 The storage environment was configured with Azure security best practices, including: 
 
+- Secure transfer enforcement for REST API operations
+
+- TLS 1.2 minimum version requirement
+
+- Soft delete protection
+
+- Storage account key access controls
+
+- Geo-redundant data replication
+
+- Lifecycle Management 
+
+
+**Measurable Outcomes** 
+
+- Configured Read-Access Geo-Redundant Storage (RA-GRS) for Blob and File Storage to provide regional resilience and read access to secondary copies.
+
+- Enabled Soft Delete (7-day retention) to support accidental deletion recovery. 
+
+- Implemented storage replication across UK South (Primary) and UK West (Secondary) regions.
+
+-Established enterprise-grade storage services capable of supporting application data, file sharing and backup requirements. 
+
+
+**Skills Demonstrated**  
+
+-Storage Replication (GRS / RA-GRS) 
+
+- Storage Security 
+
+- Data Protection
+
+- Secure Transfer & Encryption 
+
+
+**6. Monitoring and Alerting** 
+
+Implemented Azure Monitor, Log Analytics and Data Collection Rules (DCRs) to provide infrastructure visibility, collect operational data and support proactive incident response. 
+
+
+**#Log Collection Architecture** 
+
+<img width="1636" height="687" alt="LAW" src="https://github.com/user-attachments/assets/6ca03a0a-4596-49f2-ade1-8c2fa221e9af" /> 
+
+Configured a Data Collection Rule (DCR) to collect Windows Event Logs from Azure Virtual Machines and forward telemetry to a Log Analytics Workspace for analysis, monitoring and troubleshooting. 
+
+**#Activity Monitoring** 
+
+<img width="1651" height="892" alt="ActivityLog" src="https://github.com/user-attachments/assets/5f21f05e-ce37-4ad9-9d0a-0f9bba684a87" /> 
+
+Used Azure Monitor Activity Logs to track administrative actions, configuration changes and operational events across the Azure environment. 
+
+**#Alrt Notification**  
+
+<img width="1232" height="542" alt="ActionGroup" src="https://github.com/user-attachments/assets/7322966c-ddce-4de7-b478-88a1c90f5c50" /> 
+
+Configured Azure Monitor Action Groups to support automated notifications and operational response workflows. 
+
+**Measurable Outcomes**  
+
+- Integrated Azure Virtual Machines with a Log Analytics Workspace.
+
+- Enabled operational event tracking through Azure Activity Logs.
+
+- Implemented Action Groups to support automated alert notifications.
+
+- Built a monitoring framework supporting infrastructure health monitoring and operational visibility. 
+
+**Skills Demonstrated** 
+
+- Azure Monitor
+
+- Log Analytics Workspace
+  
+- Windows Event Logs
+
+- Action Groups
+
+- Alert Management
+
+
+**7. Identity and Access Management ** 
+
+Implemented Azure Role-Based Access Control (RBAC) and Microsoft Entra ID to manage identities, control access to resources and apply least-privilege security principles across the Azure environment. 
+
+
+**#Entra ID** 
+
+<img width="1102" height="552" alt="Entra ID" src="https://github.com/user-attachments/assets/9cbb7037-eb69-4bf1-a94b-a576b7e80146" /> 
+
+Microsoft Entra ID was used to manage users, groups and directory services for the Azure environment. The tenant contains administrative accounts, groups and application identities used throughout the project. 
+
+**#Resource Group Access Control** 
+
+<img width="1052" height="812" alt="RG IAM" src="https://github.com/user-attachments/assets/d81a167a-2a73-46e4-a4a5-21d395884cf0" /> 
+
+RBAC permissions were assigned at Resource Group scope to provide controlled access to infrastructure resources while maintaining separation of duties. 
+
+**#Storage Account Access Control** 
+
+<img width="1512" height="742" alt="Storage IAM" src="https://github.com/user-attachments/assets/504e2eae-722a-4982-9b36-8b443ddf2e85" />
+
+Additional RBAC assignments were configured at Storage Account scope to provide granular access to Blob Storage and Azure Files while restricting unnecessary permissions. 
+
+**Measurable Outcomes** 
+
+- Implemented Azure RBAC across Resource Group and Storage Account scopes.
+
+- Applied resource-level permissions to support least-privilege access principles.
+
+- Demonstrated role inheritance and scope-based access management within Azure.
+
+- Reduced security risk through controlled access to infrastructure and storage resources.
+
+**Skills Demonstrated** 
+
+- Azure RBAC
+
+- Identity Governance
+
+- Least Privilege Security
+
+- Azure Resource Security 
+
+
+
+
+
+
 
 
 
