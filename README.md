@@ -70,35 +70,35 @@ The project demonstrates practical cloud administration skills commonly required
   - DNS Configuration
  
 
-    **Security**
+ **Security**
 
-    - Microsoft Entra ID
+- Microsoft Entra ID
    
-    - Role-Based Access Control (RBAC)
+- Role-Based Access Control (RBAC)
    
-    - Recourse Lock
+- Recourse Lock
    
 
-      **Monitoring**
+ **Monitoring**
 
-      - Azure Monitor
+- Azure Monitor
      
-      - Log Analytics
+- Log Analytics
      
-      - Alerts and Metrics
+- Alerts and Metrics
      
-      - Activity Logs
+- Activity Logs
      
 
-      **Governance**
+ **Governance**
    
-      - Resource Groups
+- Resource Groups
+
+- Tags
      
-      - Tags
+- Cost Management
      
-      - Cost Management
-     
-      - Azure Policy
+- Azure Policy
 
 
 
@@ -135,6 +135,7 @@ The project demonstrates practical cloud administration skills commonly required
 
 Created a dedicated Azure Resource Group to organise and manage all project resources. Applied a consistent naming convention and resource structure to simplify administration and governance.
 
+
 <img width="1057" height="825" alt="Screenshot 1ResourceGroup-WithTags" src="https://github.com/user-attachments/assets/77205a5f-0b5d-4ed2-b853-942b1cfae115" />
 
 <img width="1082" height="671" alt="Screenshot 2ResourceGroup-WithLock" src="https://github.com/user-attachments/assets/b3f6b629-be44-4d86-bddf-5255de6ac46a" />
@@ -142,6 +143,7 @@ Created a dedicated Azure Resource Group to organise and manage all project reso
 
     
 **Measurable Outcomes**
+
 
 - Successfully deployed 24 Azure resources and configurations within a single managed Resource Group.
 
@@ -151,7 +153,9 @@ Created a dedicated Azure Resource Group to organise and manage all project reso
 
 - Established a production-labelled environment to support enterprise infrastructure management practices.
 
+
 **Skills Demonstrated**
+
 
 - Azure Resource Groups
 
@@ -169,6 +173,7 @@ Created a dedicated Azure Resource Group to organise and manage all project reso
  
 Designed and implemented a secure Azure networking architecture using multiple Virtual Networks, VNet Peering and Azure Bastion. The networking layer was configured to provide workload isolation, secure connectivity between environments and protected administrative access to virtual machines.
 
+
 <img width="1596" height="732" alt="Newtwork" src="https://github.com/user-attachments/assets/b3e0ad0b-d55c-44a0-9097-aad365544ea9" /> 
 
 
@@ -176,6 +181,7 @@ The environment consists of four Virtual Networks hosted within the az104-rg1 re
 
 
 **#VNet Peering** 
+
 
 <img width="1047" height="806" alt="Vnet Peering1" src="https://github.com/user-attachments/assets/03d6bc3d-22af-4fcc-8aa9-31bde0e8eb7e" /> 
 
@@ -190,10 +196,12 @@ VNet Peering was configured to enable secure communication between virtual netwo
 
 <img width="1002" height="595" alt="Screenshot 2026-10-19 100410" src="https://github.com/user-attachments/assets/ef473394-caa4-48df-887e-00b29777b3db" /> 
 
+
 Azure Bastion was deployed within the CoreServicesVnet network to provide secure browser-based RDP connectivity to virtual machines without exposing management ports to the internet. 
 
 
 **Measurable Outcomes** 
+
 
 - Successfully deployed 4 Azure Virtual Networks within the UK South region.
 
@@ -211,6 +219,7 @@ Azure Bastion was deployed within the CoreServicesVnet network to provide secure
 
 
 **Skills Demonstrated** 
+
 
 - Azure Virtual Networks (VNets)
 
@@ -241,7 +250,9 @@ Implemented Network Security Groups (NSGs) to control traffic flow between Azure
 <img width="1580" height="811" alt="NSG Deny Rule" src="https://github.com/user-attachments/assets/dd7a792c-0f3c-420c-a5f8-93dd5f5bae61" /> 
 
 
+
 **Measurable Outcomes**  
+
   
 - Deployed 5 Network Security Groups across the Azure environment.
 
@@ -260,6 +271,7 @@ Implemented Network Security Groups (NSGs) to control traffic flow between Azure
 
 **Skills Demonstrated** 
 
+
 - Azure Network Security Groups (NSGs)
 
 - Network Access Control
@@ -274,16 +286,20 @@ Implemented Network Security Groups (NSGs) to control traffic flow between Azure
 Designed and deployed Windows Server virtual machines to support Core Services and Manufacturing workloads within a secure Azure infrastructure environment. Compute resources were configured across dedicated virtual networks and availability zones to improve workload separation, resilience and operational management.
 
 
-**#CoreServices Virtual Machine ** 
+**CoreService Virtual Machine**
+
 
 <img width="1165" height="857" alt="VM1" src="https://github.com/user-attachments/assets/fbe5ecf9-c630-46e6-ac5c-afa93cfd2890" />  
+
 
 The CoreServiceVM was deployed within the CoreServicesVnet network and configured with Windows Server 2025 Datacenter. Administrative access is provided through Azure Bastion to support secure management without exposing direct RDP access to the internet.
 
 
 **#Manufacturing Virtual Machine** 
 
+
 <img width="1102" height="860" alt="VM2 " src="https://github.com/user-attachments/assets/a942a750-c0f6-49e5-a23a-099dafdf6435" /> 
+
 
 The ManufacturingVM was deployed within the ManufacturingVnet network to provide network separation between business workloads. The virtual machine was configured with dedicated networking resources and integrated with the overall monitoring and security framework. 
 
@@ -293,7 +309,7 @@ The ManufacturingVM was deployed within the ManufacturingVnet network to provide
 To demonstrate scalable cloud infrastructure, a Virtual Machine Scale Set (VMSS) was deployed using Azure's Uniform Orchestration model. The VMSS provides a platform for highly available workloads and supports horizontal scaling to accommodate increased demand.
 
 
-**Measurable Outcomes ** 
+**Measurable Outcomes**
 
 - Successfully deployed and configured 2 Windows Server 2025 Datacenter virtual machines.
 
@@ -332,6 +348,7 @@ Implemented Azure Storage solutions to provide secure, resilient and scalable da
 **#Azure Blob Storage** 
 
 <img width="1570" height="901" alt="Blob " src="https://github.com/user-attachments/assets/992aff4e-9129-4a7f-8546-d67630c66799" /> 
+
  
 The storage account rgblog1 was deployed using Azure StorageV2 and configured to support blob-based data storage. Security settings were implemented to enforce encrypted connections while providing controlled access to storage resources. 
 
@@ -340,7 +357,9 @@ The storage account rgblog1 was deployed using Azure StorageV2 and configured to
 
 <img width="1427" height="757" alt="File " src="https://github.com/user-attachments/assets/f2606da6-2048-4ec0-b821-bc6ff260c0ae" /> 
 
+
 The storage account rgfile was deployed using the Azure FileStorage account type to provide managed file share services. Geo-redundant storage was configured to improve data resilience and disaster recovery capabilities. 
+
  
 **#Security and Data Protection** 
 
@@ -367,12 +386,12 @@ The storage environment was configured with Azure security best practices, inclu
 
 - Implemented storage replication across UK South (Primary) and UK West (Secondary) regions.
 
--Established enterprise-grade storage services capable of supporting application data, file sharing and backup requirements. 
+- Established enterprise-grade storage services capable of supporting application data, file sharing and backup requirements. 
 
 
 **Skills Demonstrated**  
 
--Storage Replication (GRS / RA-GRS) 
+- Storage Replication (GRS / RA-GRS) 
 
 - Storage Security 
 
@@ -390,19 +409,25 @@ Implemented Azure Monitor, Log Analytics and Data Collection Rules (DCRs) to pro
 
 <img width="1636" height="687" alt="LAW" src="https://github.com/user-attachments/assets/6ca03a0a-4596-49f2-ade1-8c2fa221e9af" /> 
 
+
 Configured a Data Collection Rule (DCR) to collect Windows Event Logs from Azure Virtual Machines and forward telemetry to a Log Analytics Workspace for analysis, monitoring and troubleshooting. 
+
 
 **#Activity Monitoring** 
 
 <img width="1651" height="892" alt="ActivityLog" src="https://github.com/user-attachments/assets/5f21f05e-ce37-4ad9-9d0a-0f9bba684a87" /> 
 
+
 Used Azure Monitor Activity Logs to track administrative actions, configuration changes and operational events across the Azure environment. 
+
 
 **#Alert Notification**  
 
 <img width="1232" height="542" alt="ActionGroup" src="https://github.com/user-attachments/assets/7322966c-ddce-4de7-b478-88a1c90f5c50" /> 
 
+
 Configured Azure Monitor Action Groups to support automated notifications and operational response workflows. 
+
 
 **Measurable Outcomes**  
 
@@ -413,6 +438,7 @@ Configured Azure Monitor Action Groups to support automated notifications and op
 - Implemented Action Groups to support automated alert notifications.
 
 - Built a monitoring framework supporting infrastructure health monitoring and operational visibility. 
+
 
 **Skills Demonstrated** 
 
@@ -436,19 +462,25 @@ Implemented Azure Role-Based Access Control (RBAC) and Microsoft Entra ID to man
 
 <img width="1102" height="552" alt="Entra ID" src="https://github.com/user-attachments/assets/9cbb7037-eb69-4bf1-a94b-a576b7e80146" /> 
 
+
 Microsoft Entra ID was used to manage users, groups and directory services for the Azure environment. The tenant contains administrative accounts, groups and application identities used throughout the project. 
+
 
 **#Resource Group Access Control** 
 
 <img width="1052" height="812" alt="RG IAM" src="https://github.com/user-attachments/assets/d81a167a-2a73-46e4-a4a5-21d395884cf0" /> 
 
-RBAC permissions were assigned at Resource Group scope to provide controlled access to infrastructure resources while maintaining separation of duties. 
+
+**RBAC** permissions were assigned at Resource Group scope to provide controlled access to infrastructure resources while maintaining separation of duties. 
+
 
 **#Storage Account Access Control** 
 
 <img width="1512" height="742" alt="Storage IAM" src="https://github.com/user-attachments/assets/504e2eae-722a-4982-9b36-8b443ddf2e85" />
 
+
 Additional RBAC assignments were configured at Storage Account scope to provide granular access to Blob Storage and Azure Files while restricting unnecessary permissions. 
+
 
 **Measurable Outcomes** 
 
@@ -459,6 +491,7 @@ Additional RBAC assignments were configured at Storage Account scope to provide 
 - Demonstrated role inheritance and scope-based access management within Azure.
 
 - Reduced security risk through controlled access to infrastructure and storage resources.
+
 
 **Skills Demonstrated** 
 
@@ -477,6 +510,7 @@ Implemented Azure Cost Management to monitor resource spending and forecast infr
 
 <img width="1671" height="751" alt="CostAlert" src="https://github.com/user-attachments/assets/a582fddd-a9c4-4d65-a212-ad84d5077af6" /> 
 
+
 **Measurable Outcomes** 
 
 - Analysed Azure resource consumption.
@@ -485,7 +519,8 @@ Implemented Azure Cost Management to monitor resource spending and forecast infr
 
 - Applied governance practices through resource tagging and cost visibility.
 
-**Skills Demonstrated ** 
+
+**Skills Demonstrated**
 
 - Azure Cost Management
 
